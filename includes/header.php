@@ -47,9 +47,9 @@ $showcategory='header';
                         </li>
 
                         <li>
-                            <a href="product.php" class="header-link ">Category123</a>
+                            <a href="product.php" class="header-link ">Category</a>
                             <input type="checkbox" id="show-category">
-                            <label for="show-category">Category123</label>
+                            <label for="show-category">Category</label>
                             <ul>
                            <?php getPCats($showcategory);?>
                             </ul>
