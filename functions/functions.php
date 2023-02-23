@@ -1,8 +1,8 @@
 <?php
-$db_host=$_ENV["HOST"] ;
-$db_user=$_ENV["USERNAME"];
-$db_pass=$_ENV["PASSWORD"];
-$db_name=$_ENV["DB"];
+$db_host="localhost";
+$db_user="root";
+$db_pass="";
+$db_name="DB="xiaomi";
 
 $db = new mysqli($db_host,$db_user,$db_pass,$db_name);
 
