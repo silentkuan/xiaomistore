@@ -412,7 +412,9 @@ form div {
     display:block;
     
   }
-  
+  #top .navigation nav{
+   display: flex;
+}
   #top nav .content-header .links .account-list{
    
     display: block;
