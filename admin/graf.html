@@ -1,0 +1,67 @@
+<script src="https://code.highcharts.com/highcharts.js"></script>
+
+
+
+    <div id="MyLineChart"></div>
+
+    <script>
+
+Highcharts.chart('MyLineChart', {
+    chart: {
+        type: 'spline',
+        inverted: true
+    },
+    title: {
+        text: 'Atmosphere Temperature by Altitude'
+    },
+    subtitle: {
+        text: 'According to the Standard Atmosphere Model'
+    },
+    xAxis: {
+        reversed: false,
+        title: {
+            enabled: true,
+            text: 'Altitude'
+        },
+        labels: {
+            format: '{value} km'
+        },
+        accessibility: {
+            rangeDescription: 'Range: 0 to 80 km.'
+        },
+        maxPadding: 0.05,
+        showLastLabel: true
+    },
+    yAxis: {
+        title: {
+            text: 'Temperature'
+        },
+        labels: {
+            format: '{value}°'
+        },
+        accessibility: {
+            rangeDescription: 'Range: -90°C to 20°C.'
+        },
+        lineWidth: 2
+    },
+    legend: {
+        enabled: false
+    },
+    tooltip: {
+        headerFormat: '<b>{series.name}</b><br/>',
+        pointFormat: '{point.x} km: {point.y}°C'
+    },
+    plotOptions: {
+        spline: {
+            marker: {
+                enable: false
+            }
+        }
+    },
+    series: [{
+        name: 'Temperature',
+        
+        data: [[1,2.00],[2,5.00],[3,10.00],[4,1.00]]
+    }]
+});
+    </script>
