@@ -2,7 +2,7 @@
 
 $db_host="us-cdbr-east-06.cleardb.net";
 $db_user="b5363ef00b2bfd";
-$db_pass="ffe3f4d0c66bdc3";
+$db_pass="5a71b740";
 $db_name="heroku_ffe3f4d0c66bdc3";
 
 
