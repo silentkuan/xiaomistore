@@ -5,5 +5,5 @@ $db_pass="5a71b740";
 $db_name="heroku_ffe3f4d0c66bdc3";
 
 
-$con = mysqli_connect($db_host,$db_user,$db_pass,$db_name);
+$con = mysqli($db_host,$db_user,$db_pass,$db_name);
 ?>
