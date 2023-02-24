@@ -21,6 +21,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST")
                 if ($verify)
                 {
                     $_SESSION['user_id'] = $user_data['user_id'];
+                    $_SESSION['user_name'] = $user_data['user_name'];
 
                     header("Location: index.php");
                     die;
