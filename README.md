@@ -1,6 +1,9 @@
 # xiaomistore
 
-1. Download this project with zip file or using git.
+ How to access the System 
+ -----
+
+1. Download this system with zip file or using git.
 
 2. Upload the xiaomi.sql file to your mysql database.
 
