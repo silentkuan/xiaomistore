@@ -66,6 +66,7 @@ $showcategory='header';
                         <li class="account"><a href="signup.php" >Sign up</a></li>
                        <?php }
                        else{ ?>
+                        <li ><a href="" ><?php echo $_SESSION['user_name']; ?></a></li>
                         <li class="account" ><a href="logout.php" >Log out</a></li>
                       <?php } ?>
                       </div>
