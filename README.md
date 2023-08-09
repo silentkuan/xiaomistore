@@ -39,7 +39,7 @@
  http://localhost/xiaomistore/admin/login.php
  
  username=admin
- password=admin
+ password=123123
 
  User 
  -----
